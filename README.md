@@ -1,6 +1,6 @@
 # CPSC 3200 Programming Assignments Setup
 
-Examples of properly setted up projects for PAs. Though we recommend you to use the *New Projects* functionalities in the IDE to use the latest version of dependencies, this should offer you some ideas to check whether you configured them properly or not.
+Examples of properly setted up projects for PAs. Though we recommend you to use the *New Projects* functionalities in the IDE to use the latest version of dependencies, this should offer you some ideas to check whether you configured them properly or not, as well as example of properly name these files.
 Also the graders will use the same way to create IDE projects on their end and run your code, so this is a good opportunity to ensure your code can be run without issues.
 
 ## Important Tips
