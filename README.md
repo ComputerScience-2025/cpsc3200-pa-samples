@@ -6,7 +6,8 @@ Also the graders will use the same way to create IDE projects on their end and r
 ## Important Tips
 
 ### C#
-You need to create a separate projects for the unit testing files, somehow C# only allow one entrypoint (AKA `Main()`) in a project and the unit testing framework will implicitly add an main method, not doing so will cause *multiple entrypoint error* and won't let you compile the code.
+You need to create a separate projects for the unit testing files, somehow C# only allow one entrypoint (AKA `Main()`) in a project and the unit testing framework will implicitly add an main method, not doing so will cause *multiple entrypoint error* and won't let you compile the code. Don't forget to add the project of your main codes placed to the dependency of the unit testing project.
+But other than that you shouldn't create more than 2 projects for the same PA, each unit testing project can contain as many files as you need it.
 
 ### C++
 All of the `.cpp` files should be added to `CMakeList.txt` so the compiler can include them for compilation.
